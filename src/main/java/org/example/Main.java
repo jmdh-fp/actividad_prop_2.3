@@ -11,7 +11,7 @@ import java.io.*;
 
 public class Main {
     static final String TEXTO = "caña";
-    static final String FICHERO = "D:\\descargas\\elquijote(1).txt";
+    static final String FICHERO = "D:\\descargas\\elquijote.txt";
     public static void main(String[] args) {
         int fila = 1, columna = -1;
         String linea ;
