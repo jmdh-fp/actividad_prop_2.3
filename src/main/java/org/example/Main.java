@@ -10,8 +10,8 @@ package org.example;
 import java.io.*;
 
 public class Main {
-    static final String TEXTO = "moja";
-    static final String FICHERO = "D:\\tmp\\fichero.txt";
+    static final String TEXTO = "caña";
+    static final String FICHERO = "D:\\descargas\\elquijote(1).txt";
     public static void main(String[] args) {
         int fila = 1, columna = -1;
         String linea ;
@@ -26,7 +26,7 @@ public class Main {
                 fila++;
             }
         } catch (FileNotFoundException e){
-            System.err.println("No se encuentra el fichero: " + new File("fichero.txt").getAbsolutePath());
+            System.err.println("No se encuentra el fichero: " + new File(FICHERO).getAbsolutePath());
 
         } catch (IOException e){
             System.err.println("Se ha producido un error durante la lectura del fichero");
